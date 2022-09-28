@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Geolab Project</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="logo">
+            <img src="Images/dk_logo.png" alt="logo" class="rotate">
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#slider">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#abilities">Abilities</a></li>
+            <li><a href="#stats">Skills</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div id="splide" class="splide" style="background-color: #000;padding-top: 50px;">
+            <h2>Discover something new</h2>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="Images/g11.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g8.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g7.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g6.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g5.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="Images/g4.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="left">
+                <h1>Dark Knight</h1>
+                <div class="specs">
+                    <p id="combat">Combat Style</p>
+                    <p id="melee">Melee</p>
+                </div>
+
+                <div class="info">
+                    <p>
+                        Dark Knight wields the lethal but beautiful Kriegsmesser. She is the daughter of Sylvia, whose
+                        beauty resembles the moon.
+                        Her power as a magical swordsman comes from amplifying the energy of spirits. She can attack
+                        both in front of and beside her, dashing between foes and rendering them all helpless with
+                        instantaneous, decisive blows.
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+            </div>
+        </section>
+        <section class="abilities" id="abilities">
+            <h1>Abilities</h1>
+            <section id="top">
+                <div class="skill active"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+            </section>
+            <section id="bottom">
+                <video autoplay id="src">
+                    <source src="https://thumbs.gfycat.com/FirmFlakyHoneybee-mobile.mp4" type="video/mp4">
+                </video>
+            </section>
+        </section>
+        <section id="stats">
+            <div class="left">
+                <div class="swords">
+                    <img src="Images/animation.png" alt="" class="slide-fwd-right">
+                </div>
+            </div>
+            <div class="right">
+                <div class="skills">
+                    <h3 class="skillsTop">Difficulty</h3>
+
+                    <div class="skillsBottom">
+                        <div class="progress">
+                            <div class="difficulty progress-bar" role="progressbar">
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="skillsTop">PVP</h3>
+
+                    <div class="skillsBottom">
+                        <div class="progress">
+                            <div class="pvp progress-bar" role="progressbar">
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="skillsTop">PVE</h3>
+
+                    <div class="skillsBottom">
+                        <div class="progress">
+                            <div class="pve progress-bar" role="progressbar"></div>
+                        </div>
+                    </div>
+
+                    <h3 class="skillsTop">Siege</h3>
+
+                    <div class="skillsBottom">
+                        <div class="progress">
+                            <div class="siege progress-bar" role="progressbar">
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="skillsTop">Farm</h3>
+
+                    <div class="skillsBottom">
+                        <div class="progress">
+                            <div class="farm progress-bar" role="progressbar">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <section id="gallery">
+            <h1>Gallery</h1>
+            <section class="portfolio_block">
+                <div class="gallery">
+                    <div class="img_box blur pic"><img src="Images/g1.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g2.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g3.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g4.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g5.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g6.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g7.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g8.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g9.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g10.jpg" alt></div>
+                    <div class="img_box blur"><img src="Images/g11.jpg" alt></div>
+                </div>
+            </section>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="screen">
+                    <div class="screen-body">
+                        <div class="screen-body-item left">
+                            <div class="app-title">
+                                <span>CONTACT US</span>
+                            </div>
+                        </div>
+                        <div class="screen-body-item">
+                            <div class="app-form">
+                                <div class="app-form-group">
+                                    <input class="app-form-control" placeholder="NAME">
+                                </div>
+                                <div class="app-form-group">
+                                    <input class="app-form-control" placeholder="EMAIL">
+                                </div>
+                                <div class="app-form-group">
+                                    <input class="app-form-control" placeholder="CONTACT NO">
+                                </div>
+                                <div class="app-form-group message">
+                                    <input class="app-form-control" placeholder="MESSAGE">
+                                </div>
+                                <div class="app-form-group buttons">
+                                    <button class="app-form-button">CANCEL</button>
+                                    <button class="app-form-button">SEND</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="Javascript/splider_geolab.js"></script>
+    <script src="Javascript/abilities.js"></script>
+    <script src="Javascript/stats.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#logo img').removeClass('rotate');
+        });
+    </script>
+</body>
+
+</html>
